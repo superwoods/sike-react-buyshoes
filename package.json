@@ -6,7 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Howard Yeh",
+  "author": {
+      "teacher": "Howard Yeh",
+      "student": "Super Woods",
+      "email": "st_sister@icloud.com"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/superwoods/sike-react-buyshoes.git"
+  },
   "license": "MIT",
   "dependencies": {
     "normalize.css": "^3.0.3"
