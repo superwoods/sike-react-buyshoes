@@ -7,17 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
-      "teacher": "Howard Yeh",
-      "student": "Super Woods",
-      "email": "st_sister@icloud.com"
+    "teacher": "Howard Yeh",
+    "student": "Super Woods",
+    "email": "st_sister@icloud.com"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/superwoods/sike-react-buyshoes.git"
+    "type": "git",
+    "url": "https://github.com/superwoods/sike-react-buyshoes.git"
   },
   "license": "MIT",
   "dependencies": {
-    "normalize.css": "^3.0.3"
+    "normalize.css": "^3.0.3",
+    "perfect-scrollbar": "^0.6.11"
   },
   "devDependencies": {
     "browser-sync": "^2.9.3",
