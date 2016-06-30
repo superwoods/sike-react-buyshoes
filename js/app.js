@@ -4,10 +4,10 @@ window.onload = function() {
     makeSiteScrollNicely()
 
     var $toggle = document.querySelector(".site__right-sidebar-toggle");
-    $toggle.addEventListener("click",function() {
-      document.body.classList.toggle("js-show-right-sidebar");
+    $toggle.addEventListener("click", function() {
+        document.body.classList.toggle("js-show-right-sidebar");
     });
-    
+
 }
 
 function makeCartScrollNicely() {
