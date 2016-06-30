@@ -525,10 +525,10 @@ a {
 .site__title {
     /* Buy: */
     font-family: AmericanTypewriter-Bold;
-    font-size: 48px;
     color: #6B7A89;
-    /* Fill 72: */
-    /*background: #DE5E5E;*/
+    /*text-color: #515151 100%;*/
+    font-size: 48px;
+    /*font-face: AvenirNext-DemiBold*/
 }
 .site__content {
     margin-left: 170px;
@@ -553,7 +553,8 @@ a {
     width: 50%;
     height: 250px;
     /*background-color: red;*/
-    border: red 1px solid;
+    border: 5px #D8D8D8 solid;
+    padding: 20px;
 }
 
 /* site__right-sidebar */
