@@ -9,7 +9,8 @@ let App = React.createClass({
         );
     }
 });
+
 window.onload = () => {
-    // 使用 App 组件替换 `#root` 的 innerHTML。
-    React.render(<App/>, document.querySelector("#root"));
+    ReactDOM.render(
+        <App/>, document.getElementById('root'));
 }
