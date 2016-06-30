@@ -1,12 +1,4 @@
 {
-    "presets": [
-        ["es2015"],
-        ["react"]
-    ],
-    "plugins": [
-        ["transform-react-jsx", {
-            "pragma": "dom"
-        }],
-        ["syntax-jsx"]
-    ]
+    "presets": ["es2015", "react"],
+    "plugins": ["transform-react-jsx"]
 }
